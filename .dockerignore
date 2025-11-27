@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# DDEV
+.ddev
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Development files
+README.md
+screenshot.png
+agents.md
+
+# Testing
+phpunit.xml
+tests/
+phpstan.neon
+phpstan-baseline.neon
+rector.php
+grumphp.yml
+
+# Cache and temporary files
+var/
+vendor/
+
+# CI/CD
+.github
+
+# Documentation
+docs/
+*.md
