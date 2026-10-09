@@ -165,7 +165,7 @@ open http://localhost:8000
 ```
 
 **Requirements:**
-- PHP 8.3 or higher
+- PHP 8.5 or higher
 - Composer
 - cURL extension enabled
 
