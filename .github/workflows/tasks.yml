@@ -23,7 +23,7 @@ jobs:
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
           restore-keys: |
             ${{ runner.os }}-composer-
-      - run: composer install
+      - run: composer install --no-interaction --no-progress
       - run: composer check-platform-reqs
       - run: composer audit --abandoned=report
       - run: ./vendor/bin/grumphp run --ansi
